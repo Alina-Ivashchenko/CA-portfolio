@@ -1,0 +1,160 @@
+/* Work Experience Section */
+#work-experience {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#work-experience h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Work List */
+.work-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.work-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.work-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.work-item h3 {
+    font-size: 1.5em;
+    color: #7a0019;
+}
+
+.work-item ul {
+    padding-left: 20px;
+}
+
+.work-item ul li {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.work-item b {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Club Experience Section */
+#club-experience {
+    background-color: #f9f9f9;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+}
+
+#club-experience h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+}
+
+/* Club List */
+.club-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.club-item {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    transition: all 0.3s ease-in-out;
+}
+
+.club-item:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.club-item h3 {
+    font-size: 1.5em;
+    color: #7a0019;
+}
+
+.club-item ul {
+    padding-left: 20px;
+}
+
+.club-item ul li {
+    font-size: 1.1em;
+    color: #555;
+}
+
+.club-item b {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Responsive Design for smaller screens */
+@media screen and (max-width: 768px) {
+    /* Reduce padding and margins for better fit on tablets */
+    #work-experience, #club-experience {
+        padding: 15px;
+        margin: 15px;
+    }
+
+    #work-experience h2, #club-experience h2 {
+        font-size: 1.8em;
+    }
+
+    .work-item, .club-item {
+        padding: 10px;
+    }
+
+    .work-item h3, .club-item h3 {
+        font-size: 1.3em;
+    }
+
+    .work-item ul li, .club-item ul li {
+        font-size: 1em;
+    }
+
+    .work-item b, .club-item b {
+        font-size: 1em;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Further reduce padding and font sizes for mobile screens */
+    #work-experience, #club-experience {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    #work-experience h2, #club-experience h2 {
+        font-size: 1.6em;
+    }
+
+    .work-item, .club-item {
+        padding: 8px;
+    }
+
+    .work-item h3, .club-item h3 {
+        font-size: 1.2em;
+    }
+
+    .work-item ul li, .club-item ul li {
+        font-size: 0.9em;
+    }
+
+    .work-item b, .club-item b {
+        font-size: 0.9em;
+    }
+}

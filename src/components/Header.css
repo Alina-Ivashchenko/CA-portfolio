@@ -1,0 +1,76 @@
+/* Header Section */
+.header {
+  text-align: center;
+  padding: 50px 20px;
+  background-color: #f9f9f9;
+  opacity: 0;
+  transform: translateY(-20px);
+  animation: fadeIn 1s ease-out forwards;
+}
+
+/* Fade-in Animation */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* Profile Image */
+.profile-image {
+  width: 250px;
+  height: 250px;
+  object-fit: cover; 
+
+  transition: transform 0.3s ease-in-out;
+}
+
+.profile-image:hover {
+  transform: scale(1.05);
+}
+
+/* Adjust Image Size on Smaller Screens */
+@media (max-width: 768px) {
+  .profile-image {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+/* Intro Text */
+.intro-text {
+  margin-top: 20px;
+}
+
+.intro-text h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+  color: #333;
+  font-weight: bold;
+}
+
+.intro-text span {
+  font-size: 1.5rem;
+  color: #555;
+}
+
+/* Typing Cursor */
+.cursor {
+  display: inline-block;
+  margin-left: 3px;
+  animation: blink 1s infinite;
+}
+
+/* Blinking Cursor Animation */
+@keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
