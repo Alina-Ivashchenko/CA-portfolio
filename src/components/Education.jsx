@@ -2,6 +2,7 @@ import { useRef } from 'react'; // Import useRef
 import useIntersectionObserver from './useIntersectionObserver'; // Import the hook
 import './Animations.css'; // Import animations
 import './Education.css'; // Import Education-specific styles
+import UofM from '../assets/UofM.png';
 
 const Education = () => {
   const educationRef = useRef(null); // Use useRef
@@ -26,7 +27,7 @@ const Education = () => {
 
         </div>
         <div className="education-image">
-          <img src="src/assets/UofM.png" alt="University Logo" /> {/* Update with the correct path */}
+          <img src={UofM} alt="University Logo" /> {/* Update with the correct path */}
         </div>
       </div>
     </section>
