@@ -18,10 +18,10 @@ const About = () => {
         <p>
           I am a <strong>dedicated and proactive university student</strong> with a passion for 
           <strong> fostering inclusive communities</strong> and supporting fellow students. I have experience in 
-          <strong>organizing cultural and social events</strong>, leading <strong>community service projects</strong>, and creating 
+          <strong> organizing cultural and social events</strong>, leading <strong>community service projects</strong>, and creating 
           engaging activities that promote student well-being. My skills include <strong>leadership, communication, 
           and problem-solving</strong>, all of which help me build a welcoming and supportive residential experience. 
-          I am adept at <strong>event coordination, conflict resolution, and encouraging student engagement</strong> 
+          I am adept at <strong>event coordination, conflict resolution, and encouraging student engagement </strong> 
           in campus life.
         </p>
       </div>
