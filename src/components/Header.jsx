@@ -17,7 +17,7 @@ const Header = () => {
       "I am a Community Leader and Software Engineer Student.",
       "Passionate about fostering inclusive communities.",
       "Organizing events that bring people together.",
-      "Creating solutions to enhance campus life."
+      "Diversity. Equity. Inclusion."
     ];
 
     const handleTyping = () => {
