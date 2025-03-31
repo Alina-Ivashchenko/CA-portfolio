@@ -22,7 +22,7 @@ const About = () => {
             and creating initiatives that <strong>promote diversity, equity, and inclusion</strong>. My skills include 
             <strong> leadership, communication, and cross-cultural engagement</strong>, enabling me to build 
             welcoming spaces where students from all backgrounds feel valued and supported. I am adept at 
-            <strong> event coordination, conflict resolution, and advocating for internationalization</strong>  
+            <strong> event coordination, conflict resolution, and advocating for internationalization </strong>  
             by bridging cultural differences and empowering students to engage in meaningful global experiences.
           </p>
       </div>
