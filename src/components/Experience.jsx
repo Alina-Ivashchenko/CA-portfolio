@@ -58,7 +58,7 @@ const Experience = () => {
       </ul>
     </li>
     <li className="work-item">
-      <h3><b>Baker</b> – University Dining Services (2023)</h3>
+      <h3><b>Baker</b> – UMC Dining Services (2023)</h3>
       <ul>
         <li>Prepared baked goods, maintaining consistent quality and <b>attention to detail</b> in a busy dining environment.</li>
         <li>Worked as part of a team to meet high-volume demands, demonstrating <b>teamwork</b> and <b>time management</b> skills.</li>
